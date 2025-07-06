@@ -4,8 +4,6 @@ Secure_drone
 
 > Bio-inspired, encrypted, and synchronized distributed drone communication system — inspired by dolphin hunting patterns and engineered for military-grade applications.
 
-![Logo](![image](https://github.com/user-attachments/assets/69bf974e-5108-47ca-8251-527422172942)
-)
 
 ---
 
@@ -32,5 +30,22 @@ Secure_drone
 ---
 
 ## 📁 Project Structure
+
+secure_drone_sync/
+├── core/
+│ ├── message.py # Heartbeat creation + serialization
+│ ├── sync_logic.py # Phase update algorithm
+│ ├── encryption.py # AES-GCM secure messaging
+│ ├── authentication.py # ECDSA signing & verification
+│ ├── frequency_hopping.py
+│ └── fail_safe.py
+├── comms/
+│ └── interface.py # UDP-based drone communication
+├── test/
+│ └── test_protocol.py # Dual-drone test sim
+├── main.py # Entry point for real-world deployment
+└── config.py # (Optional) runtime configs
+
+
 
 
