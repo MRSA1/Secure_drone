@@ -4,8 +4,6 @@ Secure_drone
 
 > Bio-inspired, encrypted, and synchronized distributed drone communication system — inspired by dolphin hunting patterns and engineered for military-grade applications.
 
-![Logo]((![image](https://github.com/user-attachments/assets/2e341634-edb1-4182-9495-f0aadc9a2caf)
-)
 
 ---
 
@@ -47,10 +45,6 @@ secure_drone_sync/
 │ └── test_protocol.py # Dual-drone test sim
 ├── main.py # Entry point for real-world deployment
 └── config.py # (Optional) runtime configs
-
-
----
-
 
 
 
